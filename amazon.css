@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* 1st ROW OF THE SITE CSS */
+.navbar {
+    background-color: #131921;
+    display: grid;
+    grid-template-columns: 1fr 2fr 6fr 1fr 1fr 2fr 1fr 1fr;
+    color: whitesmoke;
+   
+    
+}
+.item{
+    padding: 2px;
+    border: none;
+    background-color: #131921;
+    color: white;
+    cursor: pointer;
+    width: 300px ;                                                                                                                       ;
+    text-decoration: solid;
+    font-size: 11pt;
+    
+}
+#hello{
+    width: 130px;
+}
+#signin{
+    width: 100px;
+}
+.navbar img {     
+    height:30px;
+    position:relative;
+    top: 10px;
+}
+
+.navbar input {
+    height: 37px;
+    width: auto;
+    position: relative;
+    top: 25px;
+    cursor: pointer;
+    border-color:  orange;
+}
+.navsearch{
+    background-color: orange;
+}
+
+.navbar button {
+    
+    height: 45px;
+    width: 50px;
+    position: relative;
+    top: 25px;
+    cursor: pointer;
+}
+
+/* 2nd ROW OF THE SITE CSS */
+.navbar2 {
+    background-color: #131921;
+    color: whitesmoke;
+    display: inline-flex;
+    height: 28px;
+    width: 100%;
+
+}
+
+.navbar2 div {
+    display: inline-block;
+    margin: 14px;
+    position: relative;
+    bottom: 14px;
+    
+    cursor: pointer;
+}
+/* 3rd ROW OF CENTER IMAGE */
+.sliding-button{
+    position: absolute;
+    height: 100px;
+    width: 60px;
+    top: 180px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#right-button{
+    position: absolute;
+    right: 0%;
+}
+.sliding-images{
+    width: 100%;
+    height: 225px;
+    background-image: url('Image/Sectionimage.PNG');
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+    25%{
+        background-image: url('Image/Sectionimage.PNG');
+    }
+    50%{
+        background-image: url('Image/Sectionimage2.PNG');
+    }
+    75%{
+        background-image: url('Image/Sectionimage3.PNG');
+    }
+    100%{
+        background-image: url('Image/Sectionimage4.PNG');
+    }
+}
+
+/* 4th & 5th ROW OF THE SITECONTAIN 4 BOX  */
+.boxcontainer {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+.box {
+    background-color: white;
+}
+
+.box1 {
+    background-color: grey;
+/* height: 100px;;
+width: 8cm;
+margin-left: 20px;
+margin-top: 20px; */
+    padding: 15px;
+}
+
+.box2 {
+    background-color: grey;
+
+    padding: 15px;
+}
+
+.box3 {
+    background-color: grey;
+
+    padding: 15px;
+}
+
+.box4 {
+    background-color: grey;
+
+    padding: 15px;
+}
+
+/* 6th ROW OF MIDDLE NAV */
+.middlenav{
+    height: 50px;
+    display: grid;
+    background-color: #131921;
+    grid-template-columns: 2fr;
+}
+.middlenav a{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+ /* 7th PART BOTTOM SECTION  */
+ .bottomSection {
+     background-color: #0F1111;
+     
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+     /* row-gap: 50px; */
+     
+ }
+
+ .bottomSection li,a{
+    color: white;
+     text-decoration: none;
+     list-style-type: none;
+     font-size: small;
+     line-height: 22px;
+ }
+ .bottomSection h5{
+     font-size: medium;
+ }
+
+ /* .line{
+     height: 1px;
+     width: 100px;
+     background-color: white;
+ } */
+
+ /* 8th PART WHICH IS LOWER AREA */
+ 
+ #globe{
+     color: white;
+ }
+ .bottom{
+    background-color: #0F1111;
+    padding-top: 1px;
+    height: 100%;
+ }
+ .lower {
+     display: inline-flex;
+    position: relative;
+    left: 14cm;
+    top: 2px;
+    margin-top: 1px;
+    
+ }
+
+ .lower img{
+    
+    margin: 50px;
+ }
+
+ .lower select{
+     background-color: #0F1111;
+     /* border-color: white; */
+     border: none;
+     height: 30px;
+     position: relative;
+     top: 1.4cm;
+     border-radius: 2px;
+     color: white;
+     cursor: pointer;
+ }
+
+
+ .bottom ul{
+     display: flex;
+     color: white;
+     list-style: none;
+     margin:0px;
+     position: relative;
+     bottom: 40px;
+    
+ }
+ .country{
+     padding: 10px;
+     font-size: small;
+ }
+  
+
+ /* ====FOOTER AREA==== */
+ .foot{
+    background-color: #131A22;
+     margin: 0%;
+ }
+ .services{
+    margin: 0px;
+     display: grid;
+     grid-template-columns: 2fr 2fr 2fr 2fr 2fr ;
+     
+ }
+
+ .services ul{
+     list-style: none;
+     color: white;
+     margin: 20px;
+    
+     
+ }
+ .services strong{
+     font-size: 12px;
+ }
+
+ .services li{
+     font-size: 11px;
+ }
+
+ .last{
+     display: flex;
+   
+     justify-content: center;
+     
+ }
+ .last h5{
+     color: white;
+     margin: 15px;
+     
+ }

@@ -1,0 +1,27 @@
+.signin-container{
+    position: relative;
+    top: 30px;
+    display: none;
+    background-color: #131921;
+    transform: translateX(-140px);
+    /* transform: translateY(20px); */
+}
+.navbar :hover{ 
+    /* background-color: #131921; */
+     border-radius: 3px;
+
+
+}
+.navbar :hover .signin-container{
+    display: block;
+    position: absolute;
+    background-color: #131921; 
+    margin-top: 30px;
+ }
+.navbar :hover .signin-content div{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 400px;
+    height: 200px;
+}
+
